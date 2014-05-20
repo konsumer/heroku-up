@@ -1,7 +1,7 @@
 {
   "name": "heroku-up",
   "version": "0.0.1",
-  "description": "Ping all your heroku apps, so they don't go down.",
+  "description": "Ping all your heroku apps, so they don't go to sleep.",
   "main": "dyno.js",
   "private": true,
   "scripts": {
