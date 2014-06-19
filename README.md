@@ -13,7 +13,7 @@ The dyno will do all the work. Here is how you first install it:
 *  Fork/clone this repo
 *  `cd heroku-up`
 *  Create a heroku app to do the pinging: `heroku apps:create my-heroku-pinger -s cedar`
-*  Set your heroku API token (check [account page](https://dashboard.heroku.com/account), click "Show API Key"): `heroku config:add HEROKU_API_TOKEN="TOKEN_GOES_HERE"`
+*  Set your heroku API token (check [account page](https://dashboard.heroku.com/account), click "Show API Key"): `heroku config:add HEROKU_API_TOKEN="TOKEN_GOES_HERE"`. You can also edit the "Config Variables" sction on your app's settings, if that is easier.
 *  Push yer code: `git push heroku master`
 *  Spin up a single worker dyno: `heroku ps:scale worker=1`
 
